@@ -26,7 +26,7 @@ const image = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
 
 export const config = {
   api: {
-    responseLimit: '8mb',
+    responseLimit: false,
   },
 };
 
